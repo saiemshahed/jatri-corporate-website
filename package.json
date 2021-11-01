@@ -1,0 +1,19 @@
+{
+  "name": "Jatri-Corporate-Website",
+  "version": "1.0.0",
+  "description": "This is the jatri corporate website. it's made with tailwind css.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/styles.css -o src/css/default/tailwind.css -w",
+    "prod": "NODE_ENV=production postcss src/css/styles.css -o src/css/default/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}

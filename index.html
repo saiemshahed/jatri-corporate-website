@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jatri Services Limited">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="keywords" content="Ride-Sharing, Rental, Ticketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Jatri is a public transport journey planner, digital ticketing and mobility marketplace, driving productivity by helping drivers to offer reliable transport to the commuters through our state-of-the-art technology."/>
+    <title>Jatri | convenient travel experience in Bangladesh</title>
+    <link rel="shortcut icon" type="image/jpg" href="./src/images/logo/favicon.svg" />
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./src/css/default/tailwind.css" />
+    <link rel="stylesheet" href="./src/css/manual-style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
+
+    <script src="./src/js/swiper-bundle.min.js"></script>
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <script src="https://kit.fontawesome.com/48359289d4.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+
+  <body>
+    <!----- Header Start ----->
+    <div class="bg-gray-50 text-gray-900 z-10 shadow fixed top-0 left-0 right-0">
+      <nav class="py-2 md:py-4 px-5 sm:px-10 2xl:container 2xl:mx-auto flex items-center justify-between flex-wrap">
+        <div class="flex items-center flex-shrink-0 mr-6">
+          <a href="#" class="font-semibold text-xl tracking-tight">
+            <img src="./src/images/logo/logo.svg" alt="" class="w-28">
+          </a>
+        </div>
+      
+        <label class="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded border-teal-400 hover:corporate_color hover:border-gray-400" for="menu-toggle"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+      
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="menu">
+          <div class="text-sm lg:flex-grow">
+
+            <a href="./why-us" class="block mt-4 lg:inline-block lg:mt-0 mr-4 body_text">Why Us</a>
+            <a href="./about-us" class="block mt-4 lg:inline-block lg:mt-0 mr-4 body_text">About Us</a>
+            <a href="./career" class="block mt-4 lg:inline-block lg:mt-0 mr-4 body_text">Career</a>
+            <a href="./blog" class="block mt-4 lg:inline-block lg:mt-0 mr-4 body_text">Blog</a>
+            <a href="./contact-us" class="block mt-4 lg:inline-block lg:mt-0 mr-4 body_text">Contact Us</a>
+          </div>
+          <div class="block">
+            <div class="flex-grow lg:flex justify-between">
+              <div class="dropdown-container">
+                <div class="dropdown-toggle click-dropdown body_text">Our Products</div>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <a href="https://rental.jatri.co/login" target="_blank" class="body_text">
+                        Rental
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <div class="dropdown-toggle click-dropdown body_text">Others</div>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <a href="./ride-sharing-guideline">
+                        RIDE SHARING GUIDELINE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./enlistment-certificate">
+                        ENLISTMENT CERTIFICATE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./jatri-partner-app-manual">
+                        JATRI PARTNER APP
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://corona.gov.bd/">COVID-19 INFO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="dropdown-container">
+                <div class="dropdown-toggle click-dropdown body_text">
+                  <i class="fas fa-globe"></i> English
+                </div>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fas fa-globe"></i> English</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fas fa-globe"></i> Bangla</a>
+                    </li>
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!----- Header End ----->
+
+    <!----- Body Start ----->
+
+    <!-- Banner Section Start -->
+    <section class="corporate_bg_color h-full md:bg-gray-200 mt-7 md:mt-0 relative">
+      <div class="corporate_bg_color md:mt-40 h-80 sm:h-96 flex justify-between 2xl:justify-center items-center">
+        <div class="w-full px-5 mt-10 md:mt-0 sm:px-10 2xl:container 2xl:mx-auto flex justify-between items-center align-middle">
+          
+          <div class="w-1/2 sm:w-1/2 lg:flex-grow">
+            <div data-aos="fade-up">
+              <div class="banner_text uppercase text-white font-extrabold">
+                <h1 class="text-3xl sm:text-4xl md:text-4xl xl:text-5xl font-light subheading_text tracking-wide">Empowering</h1>
+                <h1 class="text-xl sm:text-2xl md:text-5xl xl:text-6xl font-light subheading_text tracking-wide">Bangladesh to</h1>
+                <!-- <h1 class="text-3xl md:text-4xl lg:text-5xl ">Travel</h1> -->
+                <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-8xl font-light heading_text tracking-wide">Travel Better!</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-1/2 sm:w-1/2 lg:max-w-lg lg:w-full">
+            <div data-aos="fade-up">
+              <img class="home_banner_img" alt="hero" src="./src/images/banner/banner.png" draggable="false">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Counter Section Start -->
+    <section class="md:mt-16">
+      <div class="counter_bg">
+        <div data-aos="fade-up">
+          <div class="container mx-auto py-16 md:py-20 lg:py-24">
+            <h5 class="uppercase text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold tracking-widest">Serving millions across Bangladesh</h5>
+            <div class="sm:flex mt-4 lg:mt-3">
+
+              <div class="single_counter my-5 sm:my-0 w-full sm:w-1/3">
+                <div class="flex justify-center items-center">
+                  <p class="corporate_color counter_number purecounter subheading_text" data-purecounter-start="0" data-purecounter-end="6300">0</p>
+                  <p class="corporate_color counter_number_sub">+</p>
+                </div>
+                <p class="counter_tag">Partners</p>
+              </div>
+
+              <div class="single_counter my-5 sm:my-0 w-full sm:w-1/3">
+                <div class="flex justify-center items-center">
+                  <p class="corporate_color counter_number purecounter" data-purecounter-decimals="1" data-purecounter-start="0" data-purecounter-end="3.5">0</p>
+                  <p class="corporate_color counter_number_sub">+ million</p>
+                </div>
+                <p class="counter_tag">Tickets Sold</p>
+              </div>
+
+              <div class="my-5 sm:my-0 w-full sm:w-1/3">
+                <div class="flex justify-center items-center">
+                  <p class="corporate_color counter_number purecounter" data-purecounter-start="0" data-purecounter-end="1000">0</p>
+                  <p class="corporate_color counter_number_sub">+</p>
+                </div>
+                <p class="counter_tag">Served Rental Trips</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Section End -->
+
+    <!-- Card Section Start -->
+    <section>
+      <div class="card_bg">
+        <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto py-10 lg:py-20 2xl:py-24">
+          <h5 class="corporate_color">
+            <span class="text-2xl md:text-3xl xl:text-5xl font-bold">We will go the</span>
+            <br>
+            <span class="text-4xl md:text-6xl xl:text-7xl font-extrabold heading_text">extra mile for you</span>
+          </h5>
+          
+          <div class="container lg:px-5 py-10 lg:py-24 mx-auto">
+            <div data-aos="fade-up">
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 sm:w-1/3">
+                  <div class="card corporate_bg_color">
+                    <img class="card_img" src="./src/images/card/ticketing_card.jpg" alt="blog">
+                    <div class="card_body">
+                      <h1 class="card_title font-bold subheading_text">Ticketing</h1>
+                      <p class="card_description body_text">Book your ticket with our over-the-counter ticketing system to get going in no time.</p>
+                    </div>
+                    <div class="card_footer">
+                      <!-- <button class="card_btn corporate_color body_text ">Book Today</button> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-4 sm:w-1/3">
+                  <div class="card corporate_bg_color">
+                    <img class="card_img" src="./src/images/card/partner_card-2.jpg" alt="blog">
+                    <div class="card_body">
+                      <h1 class="card_title font-bold subheading_text">Rentals</h1>
+                      <p class="card_description body_text">Enjoy unbeatable prices with our on-demand car rental service. Open the app, enter trip details and you’re all set to go.</p>
+                    </div>
+                    <div class="card_footer">
+                      <button class="card_btn corporate_color body_text" onclick="window.location.href = 'https://rental.jatri.co/'">Rent Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-4 sm:w-1/3">
+                  <div class="card corporate_bg_color">
+                    <img class="card_img" src="./src/images/card/career_card.jpg" alt="blog">
+                    <div class="card_body">
+                      <h1 class="card_title font-bold subheading_text">Career</h1>
+                      <p class="card_description body_text">If you are a creative problem solver dedicated to driving change in Bangladesh, you’re in the right place. Check out our career options below!</p>
+                    </div>
+                    <div class="card_footer">
+                      <button class="card_btn corporate_color body_text" onclick="window.location.href = './career'">join the team</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card Section End -->
+
+    <!-- App Section Start -->
+    <section>
+      <div class="app_bg">
+        <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto flex sm:flex-row flex-col justify-between items-center py-5 sm:py-0">
+          <div data-aos="fade-up">
+            <div class="lg:max-w-lg lg:w-full sm:w-1/2">
+              <img class="object-cover object-center rounded" alt="hero" src="./src/images/banner/app_banner.png">
+            </div>
+          </div>
+          <div data-aos="fade-up">
+            <div class="lg:max-w-lg lg:w-full sm:w-1/2 text-right text-white 2xl:pr-20 flex flex-col md:mb-0 justify-end items-end">
+              <div class="mt-5 sm:mt-0">
+                <h3 class="text-xl lg:text-3xl uppercase subheading_text">Download</h3>
+                <h1 class="text-4xl lg:text-7xl uppercase heading_text">The App</h1>
+                <p class="text-sm lg:text-lg font-light body_text">Whether you need just a sedan or an entire microbus, we are committed to ensuring a convenient travel experience.</p>
+              </div>
+              <a href="https://play.google.com/store/apps/details?id=com.jatri.jatriuser" class="">
+                <img class="w-40 rounded-full" src="./src/images/logo/android_btn.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App Section End -->
+
+    <!-- How it work section Start -->
+    <section>
+      <div class="my-7 flex-grow lg:flex lg:justify-between lg:gap-5 text-white w-full bg-white">
+        <div class="pr-5 lg:pr-0 w-full lg:w-1/3">
+          <div data-aos="fade-up">
+            <div class="corporate_bg_color rounded-r-2xl py-9 pl-5 sm:pl-10 2xl:pl-40 pr-5">
+              <h3 class="text-2xl lg:text-3xl uppercase subheading_text">How</h3>
+              <h1 class="text-4xl lg:text-5xl uppercase heading_text">IT Works</h1>
+              <div class="mt-5">
+                <ul class="list-none">
+                  <li class="flex justify-start align-top items-start gap-3 mt-2 mb-8">
+                    <div class="corporate_color bg-white rounded-full px-2 py-1">
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      Our over-the-counter ticketing system is the go-to assistant of the bus personnel working in the public transportation.
+                    </span>
+                  </li>
+                  <li class="flex justify-start align-top items-start gap-3 mt-2 mb-8">
+                    <div class="corporate_color bg-white rounded-full px-2 py-1">
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      With seamless ticketing options to get you from A to B, traveling has never been easier. Book, board and go!
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pl-5 lg:pl-0 w-full lg:w-2/3">
+          <div data-aos="fade-up">
+            <div class="corporate_bg_dark rounded-l-2xl my-5 lg:my-0 py-11 pl-5 sm:pl-10 pr-5 sm:pr-10 2xl:pr-28">
+              <div class="sm:flex justify-between items-center sm:gap-5 h-full">
+                <ul class="list-none">
+                  <li class="gap-3 mt-2 mb-8">
+                    <div class=" w-full rounded-full flex justify-start align-middle items-center mb-4 gap-3">
+                      <div class="corporate_bg_color text-white w-8 h-8 rounded-full flex justify-center align-middle items-center">
+                        <i class="far fa-star"></i>
+                      </div>
+                      <h5 class="text-white text-2xl subheading_text">Journey planner</h5>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      Journey planner is the perfect partner to tag along with you through the maze of a busy city.
+                    </span>
+                  </li>
+                  <li class="gap-3 mt-2 mb-8">
+                    <div class=" w-full rounded-full flex justify-start align-middle items-center mb-4 gap-3">
+                      <div class="corporate_bg_color text-white w-8 h-8 rounded-full flex justify-center align-middle items-center">
+                        <i class="far fa-star"></i>
+                      </div>
+                      <h5 class="text-white text-2xl subheading_text">Rental</h5>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      Travel in style with our dynamic fleet of car rentals. Book your car through the app, and get ready to hit the road!
+                    </span>
+                  </li>
+                </ul>
+    
+                <ul class="list-none ml">
+                  <li class="gap-3 mt-2 mb-8">
+                    <div class=" w-full rounded-full flex justify-start align-middle items-center mb-4 gap-3">
+                      <div class="corporate_bg_color text-white w-8 h-8 rounded-full flex justify-center align-middle items-center">
+                        <i class="far fa-star"></i>
+                      </div>
+                      <h5 class="text-white text-2xl subheading_text">Fleet management</h5>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      Fleet management service boosts productivity, allowing bus owners to remotely track/optimize their buses, expenses and accounts all in one app.
+                    </span>
+                  </li>
+                  <li class="gap-3 mt-2 mb-8">
+                    <div class=" w-full rounded-full flex justify-start align-middle items-center mb-4 gap-3">
+                      <div class="corporate_bg_color text-white w-8 h-8 rounded-full flex justify-center align-middle items-center">
+                        <i class="far fa-star"></i>
+                      </div>
+                      <h5 class="text-white text-2xl subheading_text">Coach</h5>
+                    </div>
+                    <span class="text-justify body_text text-sm lg:text-lg font-light">
+                      A personalized & cost-effective transportation service for corporates and students, coaches are a timely and reliable solution for the everyday commute.
+                    </span>
+                  </li>
+                </ul>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it work section End -->
+
+    <!-- About section Start -->
+    <section>
+      <div data-aos="fade-up">
+        <div class="my-7 flex-grow lg:flex lg:justify-between text-white w-full">
+
+          <div class="corporate_bg_color w-full lg:w-1/3 py-9 lg:pl-10 2xl:pl-40 pr-5 order-last lg:order-first">
+            <div class="jk_slider flex flex-col justify-center items-center">
+              <img class="w-2/4 sm:w-1/4" src="./src/images/logo/logo-white.png" alt="">
+              <div class="swiper-container mySwiper mt-3">
+                <div class="swiper-wrapper mb-10 md:mb-8">
+                  <div class="swiper-slide about_slider ">
+                    <p class="body_text text-sm lg:text-lg font-light text-white text-justify leading-6">Add a new dimension to your car or microbus rental business by digitizing every trip. With exciting trip deals, flexible bookings and competitive pricing, you'll never go back to the old manual rental system again!</p>
+                  </div>
+                  <div class="swiper-slide about_slider ">
+                    <p class="body_text text-sm lg:text-lg font-light text-white text-justify leading-6">Gear up to maximize your car and microbus rental business with Jatri's pioneering technology. Get access to our massive network of passengers on our app, book trips at fair prices throughout the country and boost your income by the end of the month!</p>
+                  </div>
+                </div>
+                <div class="swiper-pagination sm:flex items-start"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about_bg h-72 lg:h-auto w-full lg:w-2/3 order-first lg:order-last"></div>
+
+        </div>
+      </div>
+    </section>
+    <!-- About section End -->
+
+    <!-- News Section Start -->  
+    <section>
+      <div class="news_bg">
+        <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto py-16 lg:py-28">
+
+          <div class="text-center text-white md:mb-10">
+            <h1 class="text-4xl md:text-6xl heading_text">HIGHLIGHTS</h1>
+          </div>
+
+          <div class="flex-grow lg:flex lg:justify-between gap-5 mt-6 h-full">
+            <div class="w-full lg:w-2/3 h-full">
+
+              <div data-aos="fade-up">
+                <div class="news_card order-1 lg:order-1">
+                  <a href="https://www.techinasia.com/jatri-pre-series-a-funding" 
+                        class="news_card_title corporate_color" target="_blank">
+                    <img class="w-full" src="./src/images/news_card/news_card_recent.jpg" alt="blog">
+                    <div class="h-1/2">
+                      <div class="p-6">
+                        <h1 class="news_card_title corporate_color font-bold body_text">
+                          Bangladeshi transport app secures $1.2m to fuel national expansion
+                        </h1>
+                        <p class="news_card_description body_text">Jatri, a Bangladesh-based public transportation platform, has secured US$1.2 million in its most recent fundraise.</p>
+                      </div>
+                      <div class="news_card_footer">
+                        <div class="news_footer_author">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="flex flex-col justify-between">
+                          <p class="corporate_color" onclick="window.location.href = 'https://www.techinasia.com/'">Tech In Asia</p>
+                          <p class="text-gray-400">September 13, 2021</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-full gap-5 h-full">
+                <div data-aos="fade-up">
+                  <div class="news_card order-2 lg:order-4 md:flex md:justify-between gap-5">
+                    <div class="p-2 flex justify-center items-center align-middle 2xl:p-5">
+                      <img class=" rounded-md" src="./src/images/news_card/news_card_tbs_news.jpg" alt="blog">
+                    </div>
+                    <div>
+                      <a href="https://www.tbsnews.net/dropped/startups/mass-transportation-startup-jatri-raises-12-million-301750" target="_blank">
+                        <div class="p-2 2xl:p-6">
+                          <h1 class="news_card_title corporate_color font-bold body_text">Mass transportation startup Jatri raises $1.2 million</h1>
+                          <p class="news_card_description body_text">Jatri is rapidly expanding its operations throughout Bangladesh with double-digit month on month growth through strategic government and private sector partnerships...</p>
+                        </div>
+                        <div class="news_card_footer">
+                          <div class="news_footer_author">
+                            <i class="fa fa-user"></i>
+                          </div>
+                          <div class="flex flex-col justify-between">
+                            <p class="corporate_color" onclick="window.location.href = 'https://www.tbsnews.net/'">The Business Standard</p>
+                            <p class="text-gray-400">September 13, 2021</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full gap-5 h-full">
+                <div data-aos="fade-up">
+                  <div class="news_card order-2 lg:order-4 md:flex md:justify-between gap-5">
+                    <div class="p-2 flex justify-center items-center align-middle 2xl:p-5">
+                      <img class=" rounded-md" src="./src/images/news_card/news_card_daily_star.jpg" alt="blog">
+                    </div>
+                    <div>
+                      <a href="https://www.thedailystar.net/business/news/jatri-raises-12-million-expand-operation-across-country-2174786" target="_blank">
+                        <div class="p-2 2xl:p-6">
+                          <h1 class="news_card_title corporate_color font-bold body_text">Jatri raises $1.2 million to expand operation across country</h1>
+                          <p class="news_card_description body_text">Tech-based transportation platform Jatri has raised $1.2 million or nearly Tk 10.03 crore in its latest round of fund-raising to expand its operation across the country...</p>
+                        </div>
+                        <div class="news_card_footer">
+                          <div class="news_footer_author">
+                            <i class="fa fa-user"></i>
+                          </div>
+                          <div class="flex flex-col justify-between">
+                            <p class="corporate_color" onclick="window.location.href = 'https://www.thedailystar.net/'">The Daily Star</p>
+                            <p class="text-gray-400">September 13, 2021</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full lg:w-1/3">
+              <div data-aos="fade-up">
+                <div class="news_card order-2 lg:order-4">
+                  <div class="p-2 flex justify-center items-center align-middle 2xl:p-5">
+                    <img class=" rounded-md" src="./src/images/news_card/news_card-1.jpg" alt="blog">
+                  </div>
+                  <div>
+                    <a href="https://e27.co/live-bus-tracking-app-jatri-attracts-funding-from-uae-investors-to-revitalise-public-transportation-in-bangladesh-20200123/" target="_blank">
+                      <div class="p-2 2xl:p-6">
+                        <h1 class="news_card_title corporate_color font-bold body_text">Bus ticketing app Jatri attracts funding from UAE VCs to revitalise public transportation in Bangladesh</h1>
+                        <p class="news_card_description body_text">Jatri's enables digital tracking and ticketing, and also allows bus operators to improve schedule adherence and optimise travel times...</p>
+                      </div>
+                      <div class="news_card_footer">
+                        <div class="news_footer_author">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="flex flex-col justify-between">
+                          <p class="corporate_color" onclick="window.location.href = 'https://e27.co/'">e27</p>
+                          <p class="text-gray-400">January 23, 2020</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up">
+                <div class="news_card order-2 lg:order-4">
+                  <div class="p-2 flex justify-center items-center align-middle 2xl:p-5">
+                    <img class=" rounded-md" src="./src/images/news_card/jatri_signed.jpg" alt="blog">
+                  </div>
+                  <div>
+                    <a href="https://thefinancialexpress.com.bd/trade/public-transportation-app-jatri-to-make-passenger-experience-happier-1579796363" target="_blank">
+                      <div class="p-2 2xl:p-6">
+                        <h1 class="news_card_title corporate_color font-bold body_text">Public transportation app Jatri to make passenger experience happier</h1>
+                        <p class="news_card_description body_text">Bangladeshi technology start-up, Jatri, announced that it has closed a seed round for an undisclosed amount backed by Superangel, Falcon Network...</p>
+                      </div>
+                      <div class="news_card_footer">
+                        <div class="news_footer_author">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="flex flex-col justify-between">
+                          <p class="corporate_color" onclick="window.location.href = 'https://thefinancialexpress.com.bd/'">The Financial Express</p>
+                          <p class="text-gray-400">August 31, 2021</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up">
+                <div class="w-full">
+                  <div class="news_card order-4 lg:order-3">
+                    <a href="https://futurestartup.com/2020/02/13/jatri-founder-and-ceo-aziz-arman-interview/" target="_blank">
+                      <div class="p-6">
+                        <h1 class="news_card_title corporate_color font-bold body_text">Jatri Founder and CEO Aziz Arman Talks Smart Mobility Solution to...</h1>
+                        <p class="news_card_description body_text">Jatri is the first bus tracking and digital ticketing platform in Bangladesh. Founded in 2019, the company aims to transform public transportation in Bangladesh and beyond through improving the experience of public..</p>
+                      </div>
+                      <div class="news_card_footer">
+                        <div class="news_footer_author">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="flex flex-col justify-between">
+                          <p class="corporate_color" onclick="window.location.href = 'https://www.techinasia.com/'">Future Startup</p>
+                          <p class="text-gray-400">February 13, 2020</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News Section End -->
+
+    <!-- Featured Section Start -->
+    <section>
+      <div class="corporate_bg_color">
+        <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto py-20">
+          <div class="flex flex-col justify-center text-center text-white">
+            <h1 class="text-2xl md:text-3xl uppercase subheading_text">We Are currently Featured in</h1>
+            <!-- <p class="text-xs font-thin mt-3 md:mt-0">Lorem ipsum dolor sit amet.</p> -->
+          </div>
+          <div class="flex flex-col md:flex-row justify-around align-middle items-center mt-5">
+            <a href="https://www.techinasia.com/jatri-pre-series-a-funding" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/1.png" alt="" class="w-28 md:w-48">
+              </div>
+            </a>
+            <a href="https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2021/10/15/meet-the-startups-changing-mobility-for-emerging-middle-classes/amp/" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/7.png" alt="" class="white_filter p-5 w-28 md:w-48">
+              </div>
+            </a>
+            <a href="https://www.dealstreetasia.com/stories/fundiin-jatri-raise-funds-260194/" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/6.png" alt="" class="white_filter p-5 w-28 md:w-40">
+              </div>
+            </a>
+            <a href="https://e27.co/live-bus-tracking-app-jatri-attracts-funding-from-uae-investors-to-revitalise-public-transportation-in-bangladesh-20200123/" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/3.png" alt="" class="p-8 sm:p-12 w-28 sm:w-36 md:w-48">
+              </div>
+            </a>
+            <a href="https://www.wamda.com/2021/08/lessons-mena-rise-bus-sharing-bangladesh" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/5.png" alt="" class="white_filter p-5 w-28 md:w-48">
+              </div>
+            </a>
+            <a href="https://thefinancialexpress.com.bd/trade/public-transportation-app-jatri-to-make-passenger-experience-happier-1579796363" target="_blank">
+              <div data-aos="flip-up">
+                <img src="./src/images/press/2.png" alt="" class="w-28 md:w-48">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Testimonial Section Start -->
+    <section>
+      <div data-aos="fade-up">
+        <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto py-20">
+          <div class="flex flex-col justify-center text-center corporate_color">
+            <h1 class="text-2xl md:text-3xl uppercase text-gray-400 font-bold">Don't just Take Our Word For It</h1>
+          </div>
+          <div class="swiper-container mySwiperTestimonial mt-5 md:mt-0">
+            <div class="py-9 swiper-wrapper">
+              
+              <div class="lg:mb-0 mb-6 p-4 swiper-slide">
+                <div class="flex flex-col justify-center items-center text-center relative corporate_bg_color rounded-2xl testimonial_body md:py-10">
+                  <img src="./src/images/testimonial/bus-Partner.jpg"  alt="testimonial" class="absolute -top-10 w-24 h-24 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" >
+                  <div class="pt-16 pb-5 px-8 font-thin text-white">
+                    <p class="leading-relaxed text-sm body_text">I really appreciate the expansion opportunity Jatri has provided for my rental car service. With inter-city rides coming in regularly, I’ve managed to organically boost my income and grow my rental business.</p>
+                    <span class="inline-block h-1 w-10 rounded bg-white mt-6 mb-4"></span>
+                    <h2 class="font-medium title-font tracking-wider text-lg body_text">Our partner</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:mb-0 mb-6 p-4 swiper-slide">
+                <div class="flex flex-col justify-center items-center text-center relative corporate_bg_color rounded-2xl testimonial_body md:py-10">
+                  <img src="./src/images/testimonial/bus-owner.jpg"  alt="testimonial" class="absolute -top-10 w-24 h-24 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" >
+                  <div class="pt-16 pb-5 px-8 font-thin text-white">
+                    <p class="leading-relaxed text-sm body_text">Jatri’s fleet management is a blessing to my business. It is incredibly convenient and time-saving, and helps run my bus service smoothly.</p>
+                    <span class="inline-block h-1 w-10 rounded bg-white mt-6 mb-4"></span>
+                    <h2 class="font-medium title-font tracking-wider text-lg body_text">Bus Owner</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:mb-0 mb-6 p-4 swiper-slide">
+                <div class="flex flex-col justify-center items-center text-center relative corporate_bg_color rounded-2xl testimonial_body md:py-10">
+                  <img src="./src/images/testimonial/user_01.jpg"  alt="testimonial" class="absolute -top-10 w-24 h-24 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" >
+                  <div class="pt-16 pb-5 px-8 font-thin text-white">
+                    <p class="leading-relaxed text-sm body_text">Jatri is the go-to rental solution for my family on vacations. Planning a trip takes a lot of effort and energy, so finding a trustworthy rental car within an hour definitely helps speed up our plans!</p>
+                    <span class="inline-block h-1 w-10 rounded bg-white mt-6 mb-4"></span>
+                    <h2 class="font-medium title-font tracking-wider text-lg body_text">User</h2>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination mt-5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->
+    
+    <!----- Body End ----->
+
+    <!----- Footer Start ----->
+    <footer class="footer-1 corporate_bg_color py-8 sm:py-12">
+      <div class="px-5 sm:px-10 2xl:container 2xl:mx-auto">
+        <div class="sm:flex sm:flex-wrap 2xl:-mx-4 md:py-4">
+
+          <!-- footer part:1/3 -->
+          <div class="w-full md:w-1/3 xl:w-1/3">
+            <p class="text-sm uppercase mb-2 text-white body_text font-light"><span class="font-bold text-white">JATRI:</span> Empowering Bangladesh to travel better</p>
+
+            <!-- Footer Menu -->
+            <div class="flex mb-6">
+              <div class="w-1/2">
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="./about-us" class="footer_bnt body_text">about us</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="footer_bnt body_text">newsletter</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-1/2">
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="./blog" class="footer_bnt body_text">blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./career" class="footer_bnt body_text">career</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Social contact -->
+            <div class="flex justify-start">
+              <a href="https://facebook.com/profile.php?id=836022770089201&ref=content_filter" target="_blank" class="footer_social_btn hover:text-blue-600 hover:corporate_bg_color">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/jatriapp?lang=en" target="_blank" class="footer_social_btn hover:text-blue-400 hover:corporate_bg_color">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://youtube.com/channel/UCOCwyP-pg5lJodKLvKmcWeQ" target="_blank" class="footer_social_btn hover:text-red-600 hover:corporate_bg_color">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/jatri-app" target="_blank" class="footer_social_btn hover:text-black hover:corporate_bg_color">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- footer part:2/3 -->
+          <div class="w-full md:w-1/3 xl:w-1/3"></div>
+
+          <!-- footer part:3/3 -->
+          <div class="w-full md:w-1/3 sm:mx-auto mt-5 xl:mt-0 xl:ml-auto">
+            
+            <div class="sm:flex md:flex-col md:items-start justify-between md:justify-start gap-6">
+            <!-- <div class="flex flex-col justify-center items-center md:items-start md:justify-start"> -->
+              <img src="./src/images/others/stand.png" alt="" class="w-64 my-4">
+              
+              <div class="flex flex-col items-start justify-start">
+                <div class="mt-5">
+                  <h5 class="mb-2 text-white font-semibold body_text">Newsletter</h5>
+                  <p class="text-white body_text">Subscribe for get new update at current time</p>
+                </div>
+                
+                <!-- Subscribe form -->
+                <div class="mt-2 lg:flex justify-between">
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 mr-2 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Your Email">
+                  <button class="bg-white hover:bg-black text-black hover:text-white font-light mt-2 lg:mt-0 py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Footer copyright section -->
+        <div class="flex flex-wrap justify-center lg:justify-start -mx-4 mt-3 sm:mt-0 md:py-4 items-center body_text">
+          <p class="footer_bottom_menu">&copy; Copyright | <span class="uppercase">jatri 2021 all right reserved</span></p>
+          <p class="footer_bottom_menu"><a href="./user/term-and-condition">Terms & Conditions</a></p>
+          <p class="footer_bottom_menu"><a href="./user/privacy-policy">Privacy Policy</a></p>
+          <div class="flex mt-4 lg:mt-0">
+            <a href="https://play.google.com/store/apps/details?id=com.jatri.jatriuser"><img src="./src/images/logo/play-store.png" alt="" class="footer_app_link"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----- Footer End ----->
+    <script>
+      // var mySwiper = new Swiper ('.swiper-container');
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        }
+      });
+
+      var swiper = new Swiper(".mySwiperTestimonial", {
+        freeMode: true,
+        // loop: true,
+        autoHeight: true,
+        autoplay: {
+          delay: 5000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1
+          },
+	        640: {
+	          slidesPerView: 2,
+	          spaceBetween: 20
+	        },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          }
+        }
+      });
+    </script>
+    <script src="./src/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="./src/js/slelect.js"></script>
+    <script src="./src/js/purecounter_vanilla.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2WJGXESERR"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2WJGXESERR');
+    </script>
+      <!-- End Google Analytics -->
+  
+  </body>
+</html>
